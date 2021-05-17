@@ -235,6 +235,7 @@
                 </configuration>
             </plugin>
             
+            <!-- web.xml이 없다는 설정 -->
             <plugin>
             	<groupId>org.apache.maven.plugins</groupId>
             	<artifactId>maven-war-plugin</artifactId>
