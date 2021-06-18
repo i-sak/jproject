@@ -23,9 +23,9 @@ public class RootConfig {
 		//hikariConfig.setDriverClassName("org.mariadb.jdbc.Driver");
 		//hikariConfig.setJdbcUrl("jdbc:mariadb://35.185.201.27:3306/test");
 		hikariConfig.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
-		hikariConfig.setJdbcUrl("jdbc:log4jdbc:mariadb://35.185.201.27:3306/test");
-		hikariConfig.setUsername("isaac");
-		hikariConfig.setPassword("isaackiss");
+		hikariConfig.setJdbcUrl("jdbc:log4jdbc:mariadb://127.0.0.1:3306/test");
+		hikariConfig.setUsername("root");
+		hikariConfig.setPassword("");
 		HikariDataSource dataSource =  new HikariDataSource(hikariConfig);
 		return dataSource;
 	}
